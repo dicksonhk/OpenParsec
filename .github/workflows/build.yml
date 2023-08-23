@@ -15,7 +15,7 @@ jobs:
     name: Build using xcodebuild command
     runs-on: macos-latest
     env:
-      scheme: default
+      scheme: OpenParsec
       archive_path: archive
     outputs:
       scheme: ${{ steps.scheme.outputs.scheme }}
